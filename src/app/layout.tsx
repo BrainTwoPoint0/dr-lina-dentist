@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Dr. Lina is Beirut's leading French-trained pediatric dentist & orthodontist with 30+ years experience. Specializing in pain-free dental care for children without anesthesia. Grand Beyrouth, Ras El Nabeh.",
   keywords:
-    "dr lina abdel hussein chamseddine, best pediatric dentist beirut, best orthodontist lebanon, best dentist middle east, french trained dentist lebanon, prosthodontist beirut lebanon, maxillo-facial prosthetics lebanon, children dentist ras el nabeh beirut, grand beyrouth dentist, kids dentist lebanon, gentle dental care beirut, pain-free dentist lebanon, dentist without anesthesia lebanon, university paris trained dentist, أفضل طبيب أسنان لبنان, أفضل طبيب أسنان أطفال بيروت, أفضل دكتور أسنان للأطفال لبنان, طبيب أسنان أطفال بيروت, دكتور لينا عبد الحسين شمس الدين, تقويم أسنان بيروت, تقويم أسنان لبنان, طبيب أسنان راس النبع, طبيب أسنان بدون بنج, طبيب أسنان فرنسي التدريب, عيادة أسنان بيروت, أفضل عيادة أسنان أطفال الشرق الأوسط",
+    "dr lina abdel hussein chamseddine, best pediatric dentist beirut, best orthodontist lebanon, best dentist middle east, french trained dentist lebanon, maxillofacial surgery lebanon, children dentist ras el nabeh beirut, grand beyrouth dentist, kids dentist lebanon, gentle dental care beirut, pain-free dentist lebanon, dentist without anesthesia lebanon, university paris trained dentist, أفضل طبيب أسنان لبنان, أفضل طبيب أسنان أطفال بيروت, أفضل دكتور أسنان للأطفال لبنان, طبيب أسنان أطفال بيروت, دكتور لينا عبد الحسين شمس الدين, تقويم أسنان بيروت, تقويم أسنان لبنان, طبيب أسنان راس النبع, طبيب أسنان بدون بنج, طبيب أسنان فرنسي التدريب, عيادة أسنان بيروت, أفضل عيادة أسنان أطفال الشرق الأوسط",
   authors: [{ name: "Dr. Lina Chamseddine" }],
   creator: "Dr. Lina Chamseddine",
   publisher: "Dr. Lina Chamseddine",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Lina Chamseddine - Pediatric & General Dentist in Beirut",
+    title: "Dr. Lina Chamseddine - Pediatric Dentist & Orthodontist in Beirut",
     description:
       "Gentle dental care for children with 30+ years experience. No anesthesia needed.",
     images: ["https://drlina.info/twitter-image.jpg"],
@@ -82,7 +82,7 @@ const jsonLd = {
   name: "Dr. Lina Chamseddine",
   alternateName: ["Dr. Lina", "دكتور لينا عبد الحسين شمس الدين"],
   description:
-    "French-trained pediatric dentist, orthodontist, and prosthodontist with 30+ years of experience providing gentle, pain-free dental care for children in Beirut, Lebanon. Specialist in treating children without anesthesia.",
+    "French-trained pediatric dentist, orthodontist, and maxillofacial surgeon with 30+ years of experience providing gentle, pain-free dental care for children in Beirut, Lebanon. Specialist in treating children without anesthesia.",
   url: "https://drlina.info",
   telephone: "+9611647444",
   email: "info@drlina.info",
@@ -149,8 +149,7 @@ const jsonLd = {
   medicalSpecialty: [
     "Pediatric Dentistry",
     "Orthodontics",
-    "Prosthodontics",
-    "Maxillo-Facial Prosthetics",
+    "Maxillofacial Surgery",
   ],
   knowsAbout: [
     "French Dental Techniques",
@@ -188,17 +187,10 @@ const jsonLd = {
     },
     {
       "@type": "MedicalProcedure",
-      name: "Prosthodontics",
+      name: "Maxillofacial Surgery",
       description:
-        "Advanced restoration and replacement of teeth with crowns, bridges, and dentures",
-      procedureType: "Therapeutic",
-    },
-    {
-      "@type": "MedicalProcedure",
-      name: "Maxillo-Facial Prosthetics",
-      description:
-        "Specialized prosthetic rehabilitation for facial and oral conditions",
-      procedureType: "Therapeutic",
+        "Specialized surgical treatment of conditions affecting the face, jaw, and oral structures",
+      procedureType: "Surgical",
     },
   ],
   hasCredential: [
@@ -206,7 +198,7 @@ const jsonLd = {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "degree",
       educationalLevel: "UniversityLevel",
-      name: "Diplôme Universitaire de Prothèse Maxillo-Faciale",
+      name: "Diplôme Universitaire de Chirurgie Maxillo-Faciale",
       recognizedBy: {
         "@type": "EducationalOrganization",
         name: "Université Paris 7 - Denis Diderot",
