@@ -58,9 +58,9 @@ export default function Home() {
       },
       {
         icon: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z",
-        title: "Maxillofacial Surgery",
+        title: "Maxillofacial Prosthetics",
         description:
-          "Specialized surgical treatment of conditions affecting the face, jaw, and oral structures.",
+          "Specialized prosthetic rehabilitation for patients with facial defects or oral conditions.",
       },
     ];
 
@@ -153,7 +153,7 @@ export default function Home() {
                   <span className="text-blue-600 mr-2">•</span>
                   <span>
                     <strong>
-                      Diplôme Universitaire de Chirurgie Maxillo-Faciale
+                      Diplôme Universitaire de Prothèse Maxillo-Faciale
                     </strong>{" "}
                     (4 years) - Paris 7/Garancière
                   </span>
@@ -225,7 +225,7 @@ export default function Home() {
         question:
           "Why is Dr. Lina considered the best pediatric dentist in Lebanon?",
         answer:
-          "Dr. Lina has over 30 years of experience and is French-trained at Université Paris 7/Garancière. She's the only dentist in Lebanon with multiple advanced degrees in pediatric dentistry, orthodontics, and maxillofacial surgery. Her unique approach treats children without anesthesia using trust-based methods.",
+          "Dr. Lina has over 30 years of experience and is French-trained at Université Paris 7/Garancière. She's the only dentist in Lebanon with multiple advanced degrees in pediatric dentistry, orthodontics, and maxillofacial prosthetics. Her unique approach treats children without anesthesia using trust-based methods.",
       },
       {
         question:
@@ -236,7 +236,7 @@ export default function Home() {
       {
         question: "What services does the best dentist in Beirut offer?",
         answer:
-          "Dr. Lina offers comprehensive dental services including pediatric dentistry, orthodontics (braces), and specialized maxillofacial surgery. She treats children from infancy through teenage years with gentle, pain-free methods.",
+          "Dr. Lina offers comprehensive dental services including pediatric dentistry, orthodontics (braces), and specialized maxillofacial prosthetics. She treats children from infancy through teenage years with gentle, pain-free methods.",
       },
       {
         question: "Where is Dr. Lina's dental clinic located in Beirut?",
@@ -514,7 +514,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.8 }}
                 className="text-lg text-gray-600 mb-4"
               >
-                Specialist in Maxillofacial Surgery
+                Specialist in Maxillofacial Prosthetics
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -645,7 +645,7 @@ export default function Home() {
               </h3>
               <p className="text-gray-600">
                 Unique combination of pediatric dentistry, orthodontics,
-                and maxillofacial surgery expertise -
+                and maxillofacial prosthetics expertise -
                 comprehensive care under one roof.
               </p>
             </div>

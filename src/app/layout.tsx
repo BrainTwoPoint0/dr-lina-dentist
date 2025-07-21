@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Dr. Lina is Beirut's leading French-trained pediatric dentist & orthodontist with 30+ years experience. Specializing in pain-free dental care for children without anesthesia. Grand Beyrouth, Ras El Nabeh.",
   keywords:
-    "dr lina abdel hussein chamseddine, best pediatric dentist beirut, best orthodontist lebanon, best dentist middle east, french trained dentist lebanon, maxillofacial surgery lebanon, children dentist ras el nabeh beirut, grand beyrouth dentist, kids dentist lebanon, gentle dental care beirut, pain-free dentist lebanon, dentist without anesthesia lebanon, university paris trained dentist, أفضل طبيب أسنان لبنان, أفضل طبيب أسنان أطفال بيروت, أفضل دكتور أسنان للأطفال لبنان, طبيب أسنان أطفال بيروت, دكتور لينا عبد الحسين شمس الدين, تقويم أسنان بيروت, تقويم أسنان لبنان, طبيب أسنان راس النبع, طبيب أسنان بدون بنج, طبيب أسنان فرنسي التدريب, عيادة أسنان بيروت, أفضل عيادة أسنان أطفال الشرق الأوسط",
+    "dr lina abdel hussein chamseddine, best pediatric dentist beirut, best orthodontist lebanon, best dentist middle east, french trained dentist lebanon, maxillofacial prosthetics lebanon, children dentist ras el nabeh beirut, grand beyrouth dentist, kids dentist lebanon, gentle dental care beirut, pain-free dentist lebanon, dentist without anesthesia lebanon, university paris trained dentist, أفضل طبيب أسنان لبنان, أفضل طبيب أسنان أطفال بيروت, أفضل دكتور أسنان للأطفال لبنان, طبيب أسنان أطفال بيروت, دكتور لينا عبد الحسين شمس الدين, تقويم أسنان بيروت, تقويم أسنان لبنان, طبيب أسنان راس النبع, طبيب أسنان بدون بنج, طبيب أسنان فرنسي التدريب, عيادة أسنان بيروت, أفضل عيادة أسنان أطفال الشرق الأوسط",
   authors: [{ name: "Dr. Lina Chamseddine" }],
   creator: "Dr. Lina Chamseddine",
   publisher: "Dr. Lina Chamseddine",
@@ -82,7 +82,7 @@ const jsonLd = {
   name: "Dr. Lina Chamseddine",
   alternateName: ["Dr. Lina", "دكتور لينا عبد الحسين شمس الدين"],
   description:
-    "French-trained pediatric dentist, orthodontist, and maxillofacial surgeon with 30+ years of experience providing gentle, pain-free dental care for children in Beirut, Lebanon. Specialist in treating children without anesthesia.",
+    "French-trained pediatric dentist, orthodontist, and maxillofacial prosthetics specialist with 30+ years of experience providing gentle, pain-free dental care for children in Beirut, Lebanon. Specialist in treating children without anesthesia.",
   url: "https://drlina.info",
   telephone: "+9611647444",
   email: "info@drlina.info",
@@ -149,7 +149,7 @@ const jsonLd = {
   medicalSpecialty: [
     "Pediatric Dentistry",
     "Orthodontics",
-    "Maxillofacial Surgery",
+    "Maxillofacial Prosthetics",
   ],
   knowsAbout: [
     "French Dental Techniques",
@@ -187,10 +187,10 @@ const jsonLd = {
     },
     {
       "@type": "MedicalProcedure",
-      name: "Maxillofacial Surgery",
+      name: "Maxillofacial Prosthetics",
       description:
-        "Specialized surgical treatment of conditions affecting the face, jaw, and oral structures",
-      procedureType: "Surgical",
+        "Specialized prosthetic rehabilitation for patients with facial defects or oral conditions",
+      procedureType: "Therapeutic",
     },
   ],
   hasCredential: [
@@ -198,7 +198,7 @@ const jsonLd = {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "degree",
       educationalLevel: "UniversityLevel",
-      name: "Diplôme Universitaire de Chirurgie Maxillo-Faciale",
+      name: "Diplôme Universitaire de Prothèse Maxillo-Faciale",
       recognizedBy: {
         "@type": "EducationalOrganization",
         name: "Université Paris 7 - Denis Diderot",
