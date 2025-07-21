@@ -57,16 +57,10 @@ export default function Home() {
           "Expert teeth alignment and bite correction using modern techniques for beautiful smiles.",
       },
       {
-        icon: "M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4",
-        title: "Prosthodontics",
-        description:
-          "Advanced restoration and replacement of teeth with crowns, bridges, and dentures.",
-      },
-      {
         icon: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z",
-        title: "Maxillo-Facial Prosthetics",
+        title: "Maxillofacial Surgery",
         description:
-          "Specialized prosthetic rehabilitation for patients with facial defects or oral conditions.",
+          "Specialized surgical treatment of conditions affecting the face, jaw, and oral structures.",
       },
     ];
 
@@ -159,7 +153,7 @@ export default function Home() {
                   <span className="text-blue-600 mr-2">•</span>
                   <span>
                     <strong>
-                      Diplôme Universitaire de Prothèse Maxillo-Faciale
+                      Diplôme Universitaire de Chirurgie Maxillo-Faciale
                     </strong>{" "}
                     (4 years) - Paris 7/Garancière
                   </span>
@@ -171,13 +165,6 @@ export default function Home() {
                       Certificat d'Études Supérieures en Pédodontie
                     </strong>{" "}
                     - Université Paris 7
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">•</span>
-                  <span>
-                    <strong>Certificat en Prothèse Maxillo-Faciale</strong> -
-                    Paris 7
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -200,12 +187,6 @@ export default function Home() {
                 Specialized Training
               </h3>
               <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">•</span>
-                  <span>
-                    <strong>Certificat en Prothèse</strong> - Paris 7/Garancière
-                  </span>
-                </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">•</span>
                   <span>
@@ -244,7 +225,7 @@ export default function Home() {
         question:
           "Why is Dr. Lina considered the best pediatric dentist in Lebanon?",
         answer:
-          "Dr. Lina has over 30 years of experience and is French-trained at Université Paris 7/Garancière. She's the only dentist in Lebanon with multiple advanced degrees in pediatric dentistry, orthodontics, prosthodontics, and maxillo-facial prosthetics. Her unique approach treats children without anesthesia using trust-based methods.",
+          "Dr. Lina has over 30 years of experience and is French-trained at Université Paris 7/Garancière. She's the only dentist in Lebanon with multiple advanced degrees in pediatric dentistry, orthodontics, and maxillofacial surgery. Her unique approach treats children without anesthesia using trust-based methods.",
       },
       {
         question:
@@ -255,7 +236,7 @@ export default function Home() {
       {
         question: "What services does the best dentist in Beirut offer?",
         answer:
-          "Dr. Lina offers comprehensive dental services including pediatric dentistry, orthodontics (braces), prosthodontics (crowns, bridges), and specialized maxillo-facial prosthetics. She treats children from infancy through teenage years with gentle, pain-free methods.",
+          "Dr. Lina offers comprehensive dental services including pediatric dentistry, orthodontics (braces), and specialized maxillofacial surgery. She treats children from infancy through teenage years with gentle, pain-free methods.",
       },
       {
         question: "Where is Dr. Lina's dental clinic located in Beirut?",
@@ -533,7 +514,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.8 }}
                 className="text-lg text-gray-600 mb-4"
               >
-                Specialist in Prosthodontics & Maxillo-Facial Prosthetics
+                Specialist in Maxillofacial Surgery
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -664,7 +645,7 @@ export default function Home() {
               </h3>
               <p className="text-gray-600">
                 Unique combination of pediatric dentistry, orthodontics,
-                prosthodontics, and maxillo-facial prosthetics expertise -
+                and maxillofacial surgery expertise -
                 comprehensive care under one roof.
               </p>
             </div>
