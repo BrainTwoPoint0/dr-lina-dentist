@@ -84,7 +84,7 @@ const jsonLd = {
   description:
     "French-trained pediatric dentist, orthodontist, and maxillofacial prosthetics specialist with 30+ years of experience providing gentle, pain-free dental care for children in Beirut, Lebanon. Specialist in treating children without anesthesia.",
   url: "https://drlina.info",
-  telephone: "+9611647444",
+  telephone: ["+9611647444", "+96178826286"],
   email: "info@drlina.info",
   image: "https://drlina.info/og-image.jpg",
   logo: "https://drlina.info/logo.png",

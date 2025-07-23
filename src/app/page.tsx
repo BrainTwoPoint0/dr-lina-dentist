@@ -76,7 +76,7 @@ export default function Home() {
           >
             Comprehensive Dental Services
           </motion.h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {services.map((service, index) => (
               <motion.div
                 key={index}
@@ -418,14 +418,24 @@ export default function Home() {
               </button>
             </div>
 
-            <motion.a
-              href="tel:+9611647444"
-              className="hidden md:inline-block bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Call Now
-            </motion.a>
+            <div className="hidden md:flex gap-3">
+              <motion.a
+                href="tel:+9611647444"
+                className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Call Clinic
+              </motion.a>
+              <motion.a
+                href="tel:+96178826286"
+                className="bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition duration-300"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Call Mobile
+              </motion.a>
+            </div>
           </div>
 
           {/* Mobile Menu */}
@@ -469,12 +479,20 @@ export default function Home() {
               >
                 Contact
               </button>
-              <a
-                href="tel:+9611647444"
-                className="block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
-              >
-                Call Now
-              </a>
+              <div className="space-y-2">
+                <a
+                  href="tel:+9611647444"
+                  className="block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+                >
+                  Call Clinic
+                </a>
+                <a
+                  href="tel:+96178826286"
+                  className="block w-full text-center bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition duration-300"
+                >
+                  Call Mobile
+                </a>
+              </div>
             </div>
           </motion.div>
         </div>
@@ -531,14 +549,24 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 1.2 }}
                 className="space-y-4"
               >
-                <motion.a
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  href="tel:+9611647444"
-                  className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
-                >
-                  Book an Appointment
-                </motion.a>
+                <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+                  <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href="tel:+9611647444"
+                    className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+                  >
+                    Call Call Clinic
+                  </motion.a>
+                  <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href="tel:+96178826286"
+                    className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300"
+                  >
+                    Call Call Mobile
+                  </motion.a>
+                </div>
                 <p className="text-sm text-gray-600">
                   No general anesthesia or laughing gas needed
                 </p>
@@ -756,12 +784,20 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
                   Book an Appointment
                 </h3>
-                <a
-                  href="tel:+9611647444"
-                  className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
-                >
-                  Call Now
-                </a>
+                <div className="space-y-3">
+                  <a
+                    href="tel:+9611647444"
+                    className="block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 text-center"
+                  >
+                    Call Clinic
+                  </a>
+                  <a
+                    href="tel:+96178826286"
+                    className="block bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300 text-center"
+                  >
+                    Call Mobile
+                  </a>
+                </div>
               </div>
             </div>
           </div>
