@@ -294,9 +294,8 @@ export default function Home() {
                       {faq.question}
                     </h3>
                     <svg
-                      className={`w-5 h-5 text-blue-600 transform transition-transform duration-300 flex-shrink-0 ${
-                        openFAQ === index ? "rotate-180" : ""
-                      }`}
+                      className={`w-5 h-5 text-blue-600 transform transition-transform duration-300 flex-shrink-0 ${openFAQ === index ? "rotate-180" : ""
+                        }`}
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -556,7 +555,7 @@ export default function Home() {
                     href="tel:+9611647444"
                     className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
                   >
-                    Call Call Clinic
+                    Call Clinic
                   </motion.a>
                   <motion.a
                     whileHover={{ scale: 1.05 }}
@@ -564,7 +563,7 @@ export default function Home() {
                     href="tel:+96178826286"
                     className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300"
                   >
-                    Call Call Mobile
+                    Call Mobile
                   </motion.a>
                 </div>
                 <p className="text-sm text-gray-600">
